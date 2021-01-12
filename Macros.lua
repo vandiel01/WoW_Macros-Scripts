@@ -20,6 +20,11 @@
   /way 52.40, 30.20 C4 (under Darkmoon banner by the road)
   /way 22.10, 29.10 C5 (under the shipwreck at north-east small island)
 
+--Delete Items At Mouse Cursor (Thanks to Reconbravo)
+  #showtooltip Delete
+  /run DeleteCursorItem();
+  /run print("Item Deleted")
+
 --Mission Table Toggle
   --for the WoD version
     /run ShowGarrisonLandingPage(LE_GARRISON_TYPE_6_0)
